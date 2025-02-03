@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/script.js" defer></script>
+    <title>Ex 7</title>
+  </head>
+  <body>
+    <h2>Selecione um produto e um desconto:</h2>
+
+    <label for="produto">Produto:</label>
+    <select id="produto">
+      <option value="100">Produto 1 - R$ 100</option>
+      <option value="180">Produto 2 - R$ 180</option>
+      <option value="220">Produto 3 - R$ 220</option>
+    </select>
+
+    <label for="desconto">Desconto:</label>
+    <select id="desconto">
+      <option value="10">10%</option>
+      <option value="15">15%</option>
+      <option value="25">25%</option>
+    </select>
+
+    <br />
+
+    <button onclick="calcularDesconto()">Calcular Preço Final</button>
+
+    <p id="resultado"></p>
+  </body>
+</html>
