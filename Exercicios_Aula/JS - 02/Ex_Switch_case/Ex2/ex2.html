@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
+    <title>Ex 2</title>
+</head>
+<body>
+    <h1>Operações</h1>
+
+    <label for="numero1">Digite um número: </label>
+    <input type="number" name="numero1" id="numero1" placeholder="Digite o primeiro número">
+
+    <br />
+    <br />
+
+    <label for="numero2">Digite um número: </label>
+    <input type="number" name="numero2" id="numero2" placeholder="Digite o segundo número">
+
+    <br />
+    <br />
+    
+    <label for="escolha">Escolha a operação: </label>
+    <select name="escolha" id="escolha">
+        <option value="0">=======================</option>
+        <option value="1">Média entre os números</option>
+        <option value="2">Diferença entre os números</option>
+        <option value="3">Multiplicação entre os números</option>
+        <option value="4">Divisão entre os números</option>
+        <option value="5">Soma entre os números</option>
+    </select>
+
+    <br />
+    <br />
+
+    <button onclick="operacoes()">Calcular</button>
+
+    <br />
+
+    <p id="resultado"></p>
+</body>
+</html>
