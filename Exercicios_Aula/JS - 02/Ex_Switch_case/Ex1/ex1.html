@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/script.js" defer></script>
+    <title>Ex 1</title>
+</head>
+<body>
+    <h1>Informações sobre Estações do Ano</h1>
+
+    <label for="escolha">Escolha uma estação: </label>
+    <select name="escolha" id="escolha">
+        <option value="1">Primavera</option>
+        <option value="2">Verão</option>
+        <option value="3">Outono</option>
+        <option value="4">Inverno</option>
+    </select>
+
+    <br />
+    <br />
+
+    <button onclick="informacao()">Informações</button>
+
+    <h1 id="titulo"></h1>
+    <p id="resultado" style="width: 25%;"></p>
+</body>
+</html>
