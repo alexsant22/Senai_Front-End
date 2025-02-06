@@ -26,6 +26,6 @@ function mostrarClass() {
             document.getElementById('resultado').innerText = "Limpeza e Utensílios Domésticos";
             break;
         default:
-            document.getElementById('resultado').innerText = "Código inválido";
+            alert("Código inválido");
     }
 }
