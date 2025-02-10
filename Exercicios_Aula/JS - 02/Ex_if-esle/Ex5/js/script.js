@@ -17,3 +17,13 @@ function avaliarNota() {
         document.getElementById('resultado').innerText = 'Recuperação.'
     }
 }
+
+// Função para chamar
+function main() {
+    let verificar = document.getElementById('verificar');
+    if (verificar) {
+        verificar.addEventListener('click', avaliarNota);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', main);
