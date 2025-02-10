@@ -29,3 +29,14 @@ function mostrarClass() {
             alert("Código inválido");
     }
 }
+
+// Função para carregar DOM e iniciar função
+function iniciar() {
+    let mostrarCod = document.getElementById('mostrarCod');
+    if (mostrarCod) {
+        mostrarCod.addEventListener('click', mostrarClass);
+    }
+}
+
+// DOM
+document.addEventListener('DOMContentLoaded', iniciar);
