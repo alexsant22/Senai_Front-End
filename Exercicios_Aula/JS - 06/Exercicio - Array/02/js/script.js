@@ -38,7 +38,7 @@ function removerTarefa () {
 function removerTarefaEscolhida (tarefa) {
     let i = arrayTarefa.indexOf(tarefa);
 
-    if (arrayTarefa.length > 0) {
+    if (1 != -1) {
         arrayTarefa.splice(i, 1);
         exibirConteudo();
     } else {
