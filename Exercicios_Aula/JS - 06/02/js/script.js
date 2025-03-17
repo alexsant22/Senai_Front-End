@@ -4,7 +4,7 @@ function exibirNumero () {
     let saida = document.getElementById('resultado');
     if (saida instanceof HTMLParagraphElement) {
         // Ordenando o array de numeros
-        arrayNumero.sort((a, b) => a -b);
+        arrayNumero.sort((a, b) => a - b);
 
         // Exibindo
         saida.textContent = arrayNumero.join(', ');
