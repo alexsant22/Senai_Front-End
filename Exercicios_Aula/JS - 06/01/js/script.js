@@ -18,7 +18,8 @@ function cadastrarTarefa (tarefa) {
             if (saida instanceof HTMLParagraphElement) {
                 saida.textContent = arrayTarefa.join(', ');
             }
-        } */
+        }
+        exibirConteudo(); */
 
     } else {
         alert("Por favor, insira um valor válido!")
