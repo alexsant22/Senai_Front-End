@@ -15,12 +15,11 @@ export default class Produto {
     valorTotal() {
         /* let resultado = this.#preco * this.#quantidade;
         return resultado.toFixed(2); */
-
         return (this.#preco * this.#quantidade).toFixed(2);
     }
 
     toString() {
-        return `${this.#nome}: Quantidade:${this.#quantidade}, 
-        Preço Unitário R$ ${this.#preco}, Valor Total R$${this.valorTotal()}`
+        return `${this.#nome}: Quantidade:${this.#quantidade} | 
+        Preço Unitário R$ ${this.#preco} | Valor Total R$${this.valorTotal()}`
     }
 }
