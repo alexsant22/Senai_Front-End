@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de Contatos</title>
+    <script src="js/contato.js" defer></script>
+    <script src="js/agenda.js" defer></script>
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <h1>Agenda de Contatos</h1>
+
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" placeholder="Digite o nome" required />
+    <br /><br />
+
+    <label for="telefone">Telefone:</label>
+    <input type="text" id="telefone" placeholder="Digite o telefone" required />
+    <br /><br />
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Digite o email" required />
+    <br /><br />
+
+    <button id="btnAdicionar">Adicionar Contato</button>
+
+    <h2>Lista de Contatos</h2>
+    <input type="text" id="pesquisa" placeholder="Pesquisar por nome" />
+    <button id="btnPesquisar">Pesquisar</button>
+
+    <ul id="listaContatos"></ul>
+
+    <p id="resultado"></p>
+</body>
+</html>
