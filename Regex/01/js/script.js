@@ -18,6 +18,12 @@ function verificarNome(nome) {
             throw new Error('Digite um nome válido');
         }
 
+        let palavras = nome.trim().split(/\s+/); // Divide o nome em palavras considerando múltiplos espaços
+        
+        if (palavras.length < 2) {
+            throw new Error('O nome deve conter pelo menos um nome e um sobrenome');
+        }
+
         let negacao = /[^a-zA-ZÀ-ÿ \s]/g;
         
         if (negacao.test(nome)) {
