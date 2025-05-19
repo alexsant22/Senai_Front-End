@@ -19,15 +19,6 @@ Este repositório contém exercícios e exemplos práticos com os seguintes tema
   - Estruturação básica de páginas
   - Integração com scripts JS
 
-## 📁 Estrutura de Pastas
-
-- `EX1 JS`: Primeiros exercícios com JavaScript
-- `Exercicios_Aula`: Exercícios desenvolvidos durante as aulas
-- `Math_String_Date`: Práticas com `Math`, manipulação de strings e datas
-- `POO - JS`: Exercícios com Programação Orientada a Objetos
-- `Regex`: Atividades utilizando expressões regulares
-- `Tratamento_Exceção`: Tratamento de erros com `try`, `catch`
-
 ## 🚀 Objetivo
 
 Consolidar conhecimentos em JavaScript e desenvolvimento Front-End por meio de exercícios práticos e projetos didáticos.
