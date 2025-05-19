@@ -34,6 +34,7 @@ async function carregarPagina(localPagina) {
         let conteudo = await resposta.text();
         let domParser = new DOMParser();
         
+        console.log(domParser.parseFromString(conteudo, 'text/html'))
         return domParser.parseFromString(conteudo, 'text/html')
     } catch (error) {
         throw new Error(`Erro ao carregar ${localPagina}: ${error.message}`);
