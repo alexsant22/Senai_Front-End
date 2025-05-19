@@ -1,0 +1,41 @@
+/* Define que a largura e altura de todos os elementos 
+   incluirão o preenchimento (padding) e as bordas. */
+* {
+  box-sizing: border-box;
+}
+
+/* Define a fonte padrão como Arial 
+   Remove as margens do corpo da página para garantir alinhamento. */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Centraliza o texto dos títulos de nível 2 (h2). */
+h2 {
+  text-align: center;
+}
+
+/* Garante que as imagens ocupem 100% da largura 
+   do elemento pai e fiquem alinhadas verticalmente ao meio. */
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+/* Cria uma tabela fictícia para ajudar no layout 
+   e remove elementos flutuantes ao lado deste container. */
+.camadaExterna {
+  display: table;
+  clear: both;
+}
+
+/* Define que cada container de produto será exibido lado a lado, 
+   com largura fixa, espaçamento interno e margens externas. */
+.container {
+  float: left;
+  width: 18%;
+  padding: 0 18px;
+  margin: 10px 50px 10px 50px;
+  display: block;
+}
