@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.camadaExterna {
+  /*A propriedade content é usada com os 
+  pseudo-elementos ::before e ::after, 
+  para inserir o conteúdo gerado.
+  */
+  content: "";
+  /*clear define se um elemento pode 
+    ter elementos flutuantes ao seu lado 
+    ou se devem ser movidos para abaixo dele;
+  */
+  clear: both;
+  /*permite que o elemento se comporte como 
+  uma tabela
+  */
+  display: table;
+  /*border: rgb(212, 18, 18) solid 2px;  */
+}
+
+.container {
+  float: left;
+  width: 18%;
+  height: auto;
+  padding: 0 18px;
+  margin: 10px;
+  margin-left: 50px;
+  display: block;
+  /* border: blue solid 2px;  */
+}
+
+/* Ocultar as imagens por padrão */
+.minhaImagem {
+  display: none;
+  /* border: rgb(90, 85, 85) solid 1px; */
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 4px;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+.minhaMiniaturaSelecionada {
+  border: 2px solid #eeeae9; /* Cor de destaque (tom de laranja) */
+}
+
+/* Adicione um ponteiro ao passar o mouse sobre as imagens em miniatura */
+.cursor {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.cursor.minhaMiniaturaSelecionada {
+  opacity: 1;
+}
+
+/* 3 colunas lado a lado */
+.coluna {
+  float: left;
+  width: 33%;
+  /*border: rgb(90, 85, 85) solid 1px;*/
+}
+
+/*======informacao Do Produto===== */
+.informacaoDoProduto {
+  padding: 5px;
+  text-align: center;
+}
+
+.informacaoDoProduto a {
+  font-size: 18px;
+  display: block;
+  padding-top: 100px;
+  text-decoration: none;
+  color: #000;
+}
+
+.informacaoDoProduto a:hover {
+  color: rgb(55, 78, 117);
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.camadaExterna {
+  /*A propriedade content é usada com os 
+  pseudo-elementos ::before e ::after, 
+  para inserir o conteúdo gerado.
+  */
+  content: "";
+  /*clear define se um elemento pode 
+    ter elementos flutuantes ao seu lado 
+    ou se devem ser movidos para abaixo dele;
+  */
+  clear: both;
+  /*permite que o elemento se comporte como 
+  uma tabela
+  */
+  display: table;
+  /* border: rgb(212, 18, 18) solid 2px;  */
+}
+
+.container {
+  float: left;
+  width: 18%;
+  height: auto;
+  padding: 0 18px;
+  margin: 10px;
+  margin-left: 50px;
+  display: block;
+  /* border: blue solid 2px;  */
+}
+
+/* Ocultar as imagens por padrão */
+.minhaImagem {
+  display: none;
+  /* border: rgb(90, 85, 85) solid 1px; */
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 4px;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+.minhaMiniaturaSelecionada {
+  border: 2px solid #eeeae9; /* Cor de destaque (tom de laranja) */
+}
+
+/* Adicione um ponteiro ao passar o mouse sobre as imagens em miniatura */
+.cursor {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.cursor.minhaMiniaturaSelecionada {
+  opacity: 1;
+}
+
+/* 3 colunas lado a lado */
+.coluna {
+  float: left;
+  width: 33%;
+  /*border: rgb(90, 85, 85) solid 1px;*/
+}
+
+/*======informacao Do Produto===== */
+.informacaoDoProduto {
+  padding: 5px;
+  text-align: center;
+}
+
+.informacaoDoProduto a {
+  font-size: 18px;
+  display: block;
+  padding-top: 100px;
+  text-decoration: none;
+  color: #000;
+}
+
+.informacaoDoProduto a:hover {
+  color: rgb(55, 78, 117);
+}

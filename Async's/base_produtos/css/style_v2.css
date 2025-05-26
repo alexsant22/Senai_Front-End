@@ -1,0 +1,62 @@
+/* Define que a largura e altura de todos os elementos 
+   incluirão o preenchimento (padding) e as bordas. */
+* {
+  box-sizing: border-box;
+}
+
+/* Define a fonte padrão como Arial e remove as margens 
+  do corpo da página para garantir alinhamento. */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Centraliza o texto dos títulos de nível 2 (h2). */
+h2 {
+  text-align: center;
+}
+
+/* Garante que as imagens ocupem 100% da largura do elemento pai. */
+img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Define o layout para cada container de produto, 
+     flutuando os elementos lado a lado. */
+.container {
+  float: left;
+  width: 18%;
+  padding: 0 18px;
+  margin: 10px 50px 10px 50px;
+  display: block;
+}
+
+/* Estiliza o contêiner da galeria de imagens, 
+     adicionando uma sombra e margens. */
+.minhaImagem {
+  display: block;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+  margin: 4px;
+  margin-bottom: 16px;
+  padding: 10px;
+}
+
+/* Estiliza o contêiner de informações do produto, 
+     centralizando o texto. */
+.informacaoDoProduto {
+  padding: 5px;
+  text-align: center;
+}
+
+/* Define o estilo dos links dentro da descrição do produto. */
+.informacaoDoProduto a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Altera a cor dos links ao passar o mouse. */
+.informacaoDoProduto a:hover {
+  color: rgb(55, 78, 117);
+}
