@@ -14,6 +14,7 @@ function inicializarProdutos() {
       console.log(produto);
 
       let containerProduto = criarContainerProduto(produto);
+      containerPrincipal.appendChild(containerProduto);
     });
   }
 }
@@ -29,11 +30,17 @@ function criarContainerProduto(produto) {
 }
 
 function criarQuadro(produto) {
-  produto.imagens.forEach((item) => {
-   let imagem = document.createElement('img');
+  let quadro = document.createElement('div');
+  quadro.className = 'quadro-imagens';
 
-   imagem.src = `img/${produto.diretorio}/${item}`;
+  produto.imagens.forEach((item) => {
+      let imagem = document.createElement('img');
+      imagem.src = `img/${produto.diretorio}/${item}`;
+      imagem.alt = produto.nome;
+      quadro.appendChild(imagem);
   });
+
+  return quadro;
 }
 
   document.addEventListener('DOMContentLoaded', inicializarProdutos);
